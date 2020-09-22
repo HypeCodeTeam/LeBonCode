@@ -3,6 +3,10 @@ Réalisez un site de vente de produit comme LeBonCoin.
 Vous commencez le projet avec un symfony skeleton.  
 Vous disposez aussi d'un docker-compose.
 
+## Rendu
+Ce test à pour but de voir votre logique de code. Il n'y a pas de mauvaise réponse, faites le comme si vous coderiez naturellement.  
+Vous avez deux heures pour effectuer ce test. Votre rendu s'effectuera sur un fork du projet.  
+
 ## Advert
 
 #### Create advert `POST`
