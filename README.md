@@ -1,5 +1,5 @@
 # LeBonCode
-Le but de ce test est de réaliser un site de vente de produit comme LeBonCoin.  
+Le but de ce test est de réaliser une api pour un site de vente de produit comme LeBonCoin.  
 Vous commencez le projet avec un symfony skeleton, vous disposez aussi d'un docker-compose.
 
 Ce test à pour but de voir votre logique de code. Il n'y a pas de mauvaise réponse, faites le comme si vous codiez naturellement.  
