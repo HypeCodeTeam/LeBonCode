@@ -52,7 +52,8 @@ Par défaut, l'utilisateur appartiendra au groupe `USER`.
 Un utilisateur pourra se connecter (`/login`) avec ses identifiant :
 - Email
 - Password
-`https://github.com/lexik/LexikJWTAuthenticationBundle/blob/master/Resources/doc/index.md#installation`
+
+[Installation de JWT](https://github.com/lexik/LexikJWTAuthenticationBundle/blob/master/Resources/doc/index.md#installation)
 
 #### Sécurisation des routes
 Les routes ne sont plus accessibles que part des utilisateurs connecté
