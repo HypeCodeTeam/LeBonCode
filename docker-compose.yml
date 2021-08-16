@@ -7,8 +7,8 @@ services:
       - 3310:3306
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: admin
+      MYSQL_DATABASE: leboncode
     volumes:
-      - admin-data:/var/lib/mysql
+      - admin-leboncode:/var/lib/mysql
 volumes:
-  admin-data:
+  admin-leboncode:
