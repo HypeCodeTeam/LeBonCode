@@ -3,7 +3,7 @@ Le but de ce test est de réaliser une api pour un site de vente de produit comm
 Vous commencez le projet avec un symfony skeleton, vous disposez aussi d'un docker-compose.
 
 Ce test à pour but de voir votre logique de code. Il n'y a pas de mauvaise réponse, faites le comme si vous codiez naturellement.  
-Vous avez deux heures pour effectuer ce test, bien entendu nous ne pourrons pas vérifier si vous y passez 42h ou 30mn, mais ça vous donne une indication. Ne restez pas bloqué trop longtemps sur un sujet, n'hésitez pas à faire ce qui vous semble le plus simple en premier. Il vaut mieux rendre du code qualitatif quitte à ne pas avoir couvert toutes les demanes que de rendre un code bancal.
+Vous avez deux heures pour effectuer ce test, bien entendu nous ne pourrons pas vérifier si vous y passez 42h ou 30mn, mais ça vous donne une indication. Ne restez pas bloqué trop longtemps sur un sujet, n'hésitez pas à faire ce qui vous semble le plus simple en premier. Il vaut mieux rendre du code qualitatif quitte à ne pas avoir couvert toutes les demandes que de rendre un code bancal.
 
 Avant de commencer, faites un fork du projet. C'est ce fork qui servira de rendu pour ce test.
 
@@ -15,7 +15,7 @@ Un utilisateur pourra ajouter un produit à vendre (`/advert`) avec ses informat
 - Description du produit
 - Prix de vente
 - Code postal
-- ville de vente
+- Ville de vente
 #### Delete advert  `DELETE`
 Un utilisateur pourra supprimer une annonce (`/advert/{id}`).
 la suppression rend l'annonce inactive
@@ -34,7 +34,7 @@ Un utilisateur pourra chercher une annonce (`/advert/search`).
 
 #### Delete advert  `DELETE`
 Un utilisateur pourra supprimer une annonce (`/advert/{id}`).
-la suppression rend l’annonce inactive
+La suppression rend l’annonce inactive
 
 ## User
 
