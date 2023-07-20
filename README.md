@@ -2,8 +2,8 @@
 Le but de ce test est de réaliser une api pour un site de vente de produit comme LeBonCoin.  
 Vous commencez le projet avec un symfony skeleton, vous disposez aussi d'un docker-compose.
 
-Ce test à pour but de voir votre logique de code. Il n'y a pas de mauvaise réponse, faites le comme si vous codiez naturellement. 
-Merci de ne pas utiliser de librairies externes telles que api-platform.
+Ce test à pour but de voir votre logique de code. Il n'y a pas de mauvaise réponse, faites le comme si vous codiez naturellement.  
+Merci de ne pas utiliser de librairies externes telles que api-platform.  
 Vous avez deux heures pour effectuer ce test, bien entendu nous ne pourrons pas vérifier si vous y passez 42h ou 30mn, mais ça vous donne une indication. Ne restez pas bloqué trop longtemps sur un sujet, n'hésitez pas à faire ce qui vous semble le plus simple en premier. Il vaut mieux rendre du code qualitatif quitte à ne pas avoir couvert toutes les demandes que de rendre un code bancal.
 
 Avant de commencer, faites un fork du projet. C'est ce fork qui servira de rendu pour ce test.
