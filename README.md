@@ -1,5 +1,5 @@
 # LeBonCode
-Le but de ce test est de réaliser une api pour un site de vente de produit comme LeBonCoin.  
+Le but de ce test est de réaliser une api pour un site de vente de produits comme LeBonCoin.  
 Vous commencez le projet avec un symfony skeleton, vous disposez aussi d'un docker-compose.
 
 Ce test à pour but de voir votre logique de code. Il n'y a pas de mauvaise réponse, faites le comme si vous codiez naturellement.  
@@ -11,7 +11,7 @@ Avant de commencer, faites un fork du projet. C'est ce fork qui servira de rendu
 ## Advert
 
 #### Create advert `POST`
-Un utilisateur pourra ajouter un produit à vendre (`/advert`) avec ses informations :
+Un utilisateur pourra ajouter un produit à vendre (`/advert`) avec ces informations :
 - Titre de l'annonce
 - Description du produit
 - Prix de vente
@@ -46,15 +46,15 @@ Un utilisateur pourra s'enregistrer (`/register`) avec au minimum :
 - Numéro de téléphone
 - Email
 - Mot de passe
-lors de la création l'utilisateur appartient au groupe `USER`
+lors de la création, l'utilisateur appartient au groupe `USER`
 
 #### Login `POST`
 Par défaut, l'utilisateur appartiendra au groupe `USER`.
-Un utilisateur pourra se connecter (`/login`) avec ses identifiant :
+Un utilisateur pourra se connecter (`/login`) avec ses identifiants :
 - Email
 - Password
 
 [Installation de JWT](https://github.com/lexik/LexikJWTAuthenticationBundle/blob/master/Resources/doc/index.md#installation)
 
 #### Sécurisation des routes
-Les routes ne sont plus accessibles que part des utilisateurs connecté
+Les routes ne sont accessibles qu'à des utilisateurs connectés
